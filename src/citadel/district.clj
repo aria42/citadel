@@ -13,7 +13,8 @@
 ;; unfortunately need to define a spec
 ;; to make validation easier
 (s/def ::spec
-  (s/keys :req-un [::title ::color ::cost ::effect]))
+  (s/keys :req-un [::title ::color ::cost]
+          :opt-un [::end-bonus ::effect]))
 
 
 ;;; Specs for District fields
@@ -21,6 +22,7 @@
 (s/def ::title string?)
 (s/def ::color #{:green :red :yellow :blue :purple})
 (s/def ::cost pos-int?)
+(s/def ::end-bonus pos-int?)
 ;; TODO(aria42): Define turn effects as a set of parameters
 ;; and each card can update those per player turn or after each play
 (s/def ::effect nil?)
