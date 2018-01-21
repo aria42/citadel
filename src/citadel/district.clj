@@ -42,9 +42,14 @@
                        :json s})))
     district))
 
-(defn load
-  "return lazy sequence of `District` cards from readable input.
+(defn load-json
+  "return eager vector of `District` cards from readable input.
    will validate each json against `District` spec"
   [input]
   (with-open [rdr (io/reader input)]
-    (map from-json-str (line-seq rdr))))
+    (mapv from-json-str (line-seq rdr))))
+
+(defn end-value
+  "sum of card cost and end bonus if exists"
+  [district]
+  (+ (:cost district) (:end-bonus district 0)))
