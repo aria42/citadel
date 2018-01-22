@@ -49,8 +49,3 @@
   [input]
   (with-open [rdr (io/reader input)]
     (mapv from-json-str (line-seq rdr))))
-
-(defn end-value
-  "sum of card cost and end bonus if exists"
-  [district]
-  (+ (:value district) (:end-bonus district 0)))
