@@ -1,28 +1,28 @@
-{"title": "Tavern", "cost": 1, "color": "green"}
-{"title": "Market", "cost": 2, "color": "green"}
-{"title": "Trading Post", "cost": 2, "color": "green"}
-{"title": "Docks", "cost": 3, "color": "green"}
-{"title": "Harbor", "cost": 4, "color": "green"}
-{"title": "Town Hall", "cost": 5, "color": "green"}
-{"title": "Temple", "cost": 1, "color": "blue"}
-{"title": "Church", "cost": 2, "color": "blue"}
-{"title": "Monastery", "cost": 3, "color": "blue"}
-{"title": "Cathedral", "cost": 5, "color": "blue"}
-{"title": "Watchtower", "cost": 1, "color": "red"}
-{"title": "Prison", "cost": 2, "color": "red"}
-{"title": "Battlefield", "cost": 3, "color": "red"}
-{"title": "Fortress", "cost": 5, "color": "red"}
-{"title": "Manor", "cost": 3, "color": "yellow"}
-{"title": "Castle", "cost": 4, "color": "yellow"}
-{"title": "Palace", "cost": 5, "color": "yellow"}
-{"title": "Haunted city", "cost": 2, "color": "purple"}
-{"title": "Keep", "cost": 3, "color": "purple"}
-{"title": "Laboratory", "cost": 5, "color": "purple"}
-{"title": "Smithy", "cost": 5, "color": "purple"}
-{"title": "Graveyard", "cost": 5, "color": "purple"}
-{"title": "Observatory", "cost": 5, "color": "purple"}
-{"title": "School of Magic", "cost": 6, "color": "purple"}
-{"title": "Library", "cost": 6, "color": "purple"}
-{"title": "Great wall", "cost": 6, "color": "purple"}
-{"title": "University", "cost": 8, "color": "purple"}
-{"title": "Dragon Gate", "cost": 8, "color": "purple"}
+{"color": "green", "cost": 1, "value": 1, "title": "Tavern"}
+{"color": "green", "cost": 2, "value": 2, "title": "Market"}
+{"color": "green", "cost": 2, "value": 2, "title": "Trading Post"}
+{"color": "green", "cost": 3, "value": 3, "title": "Docks"}
+{"color": "green", "cost": 4, "value": 4, "title": "Harbor"}
+{"color": "green", "cost": 5, "value": 5, "title": "Town Hall"}
+{"color": "blue", "cost": 1, "value": 1, "title": "Temple"}
+{"color": "blue", "cost": 2, "value": 2, "title": "Church"}
+{"color": "blue", "cost": 3, "value": 3, "title": "Monastery"}
+{"color": "blue", "cost": 5, "value": 5, "title": "Cathedral"}
+{"color": "red", "cost": 1, "value": 1, "title": "Watchtower"}
+{"color": "red", "cost": 2, "value": 2, "title": "Prison"}
+{"color": "red", "cost": 3, "value": 3, "title": "Battlefield"}
+{"color": "red", "cost": 5, "value": 5, "title": "Fortress"}
+{"color": "yellow", "cost": 3, "value": 3, "title": "Manor"}
+{"color": "yellow", "cost": 4, "value": 4, "title": "Castle"}
+{"color": "yellow", "cost": 5, "value": 5, "title": "Palace"}
+{"color": "purple", "cost": 2, "value": 2, "title": "Haunted city"}
+{"color": "purple", "cost": 3, "value": 3, "title": "Keep"}
+{"color": "purple", "cost": 5, "value": 5, "title": "Laboratory"}
+{"color": "purple", "cost": 5, "value": 5, "title": "Smithy"}
+{"color": "purple", "cost": 5, "value": 5, "title": "Graveyard"}
+{"color": "purple", "cost": 5, "value": 5, "title": "Observatory"}
+{"color": "purple", "cost": 6, "value": 6, "title": "School of Magic"}
+{"color": "purple", "cost": 6, "value": 6, "title": "Library"}
+{"color": "purple", "cost": 6, "value": 6, "title": "Great wall"}
+{"color": "purple", "cost": 8, "value": 8, "title": "University"}
+{"color": "purple", "cost": 8, "value": 8, "title": "Dragon Gate"}
