@@ -13,7 +13,7 @@
 ;; unfortunately need to define a spec
 ;; to make validation easier
 (s/def ::spec
-  (s/keys :req-un [::title ::color ::cost]
+  (s/keys :req-un [::title ::color ::cost ::value]
           :opt-un [::end-bonus ::effect]))
 
 
@@ -22,6 +22,7 @@
 (s/def ::title string?)
 (s/def ::color #{:green :red :yellow :blue :purple})
 (s/def ::cost pos-int?)
+(s/def ::value pos-int?)
 (s/def ::end-bonus pos-int?)
 ;; TODO(aria42): Define turn effects as a set of parameters
 ;; and each card can update those per player turn or after each play
@@ -52,4 +53,4 @@
 (defn end-value
   "sum of card cost and end bonus if exists"
   [district]
-  (+ (:cost district) (:end-bonus district 0)))
+  (+ (:value district) (:end-bonus district 0)))

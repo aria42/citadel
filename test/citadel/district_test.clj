@@ -15,11 +15,11 @@
 
 (deftest invalid-json-district-throws?
   (testing "validate colors"
-    (let [bad-color "{\"title\":\"title\", \"cost\":5, \"color\":\"azure\"}"]
+    (let [bad-color "{\"title\":\"title\", \"cost\":5, \"value\":5 \"color\":\"azure\"}"]
       (is (thrown? ExceptionInfo (district/from-json-str bad-color)))))
   (testing "validate costs"
-    (let [bad-cost "{\"title\":\"title\", \"cost\":0, \"color\":\"azure\"}"]
+    (let [bad-cost "{\"title\":\"title\", \"cost\":0, \"value\":0 \"color\":\"azure\"}"]
       (is (thrown? ExceptionInfo (district/from-json-str bad-cost)))))
   (testing "validate missing title"
-    (let [bad-title "{\"cost\":0, \"color\":\"azure\"}"]
+    (let [bad-title "{\"cost\":0, \"value\":0 \"color\":\"azure\"}"]
       (is (thrown? ExceptionInfo (district/from-json-str bad-title))))))
